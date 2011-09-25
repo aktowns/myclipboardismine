@@ -1,0 +1,9 @@
+{
+  "name": "myclipboardismine",
+  "version": "1.0",
+  "description": "removes tynt clipboard hijacking.",
+  "permissions": [
+    "*"
+  ],
+  "content_scripts": [ {"js": ["tyntinator.js"], "matches": ["*://*/*"]} ]
+}
